@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	int arr[5] , size , i;
+	int size;
+	int arr[size] , i;
 	cout << "Enter the Size of Array: ";
 	cin >> size;
 	for(i= 0; i < size ; i++)
