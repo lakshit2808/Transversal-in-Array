@@ -1,3 +1,4 @@
+
 //Transversal Operation in Array
 
 #include <iostream>
@@ -15,11 +16,10 @@ int main()
        scanf("%d",&arr[i]); // here we ask user to input the elements in array
 
    }
-   cout <<"Elements in the array are ";
+   cout <<"Elements in the array are:- ";
    for(i = 0 ; i < size ; i++)
    {
-       cout << arr[i]; // Here we have printed the array which was entered by the user
+       cout << arr[i] << " "; // Here we have printed the array which was entered by the user
    }
     return 0;
-
 }
