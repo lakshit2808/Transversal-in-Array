@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int arr[5] , size , i;
+	cout << "Enter the Size of Array: ";
+	cin >> size;
+	for(i= 0; i < size ; i++)
+	{
+		cout <<"Enter the Element [" << i << "] ";
+		cin >> arr[i];
+	}
+	
+	cout <<"Your Inputs are \n"; 
+	for(i = 0; i < size ; i++)
+	{
+		cout << "[" << i <<"] = " << arr[i] << endl ;
+	}
+	
+	return 0;
+}
