@@ -6,7 +6,8 @@ using namespace std;
 
 int main()
 {
-   int arr[5] , size , i; // declaration of array and size of array also initially we have assumed the size of array to be 5
+   int size;
+   int arr[size] , i; // declaration of array
    cout <<"Enter the size of array ";
     scanf("%d", &size) ; // ask user to enter the size of array
 
